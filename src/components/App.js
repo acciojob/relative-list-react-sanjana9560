@@ -9,7 +9,7 @@ const App = () => {
             relatives.map((item,index)=>{
               return (
                 <>
-                <li keyq={`relativeListItem ${index+1}`}>{item}</li>
+                <li key={`relativeListItem ${index+1}`}>{item}</li>
                 </>
               )
             })
